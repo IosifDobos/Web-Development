@@ -8,7 +8,8 @@
 		· Search for a book 
 		· Reserve a book 
 		· View all the books that they have reserved 
-	• Login – The user must identify themselves to the system in order to use the system an throughout the whole site. If they have not previously used the system, they must register their details.
+	• Login – The user must identify themselves to the system in order to use the system an throughout the 
+    whole site. If they have not previously used the system, they must register their details.
 	• Registration - This allows a user to enter their details on the system. The registration process 
     should validate that all details are entered. Mobile phone numbers should be numeric and 10 characters 
     in length. Password should be six characters and have a password confirmation function. The system 

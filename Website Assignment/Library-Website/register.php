@@ -6,7 +6,7 @@
 <html>
 <head>
 	<title>Registration to Joseph`s Library</title>
-	<link rel="stylesheet" type="text/css" href="../Stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="">
 </head>
 <body>
 	<div class="main">
@@ -18,7 +18,7 @@
 		<!--create a div class for navigation bar -->
 		<div id = "navigationbar">
 			<ul id ="navbar">
-				<li><a href="../mainPage.php">HOME PAGE</a></li>
+				<li><a href="mainPage.php">HOME PAGE</a></li>
 				<li><a href="#">ABOUT US</a></li>
 				<li><a href="#">SERVICES</a></li>
 				<li><a href="#">BOOKS</a></li>
@@ -29,57 +29,57 @@
 				<div class="hdr">
 					<h1>Register</h1>
 				</div>
-				<form method="post" action="server.php">
+				<form method="post" action="register.php">
 					<?php include('errors.php')  ?>
 
 					<div class="input_form">
 						<label>Username</label>
-						<input type="text" name="Username" value="<?php echo $Username; ?>">
+						<input type="text" name="username" value="<?php echo $Username; ?>">
 					</div>
 					<div class="input_form">
 						<label>Password</label>
-						<input type="password" name="Password_1">
+						<input type="password" name="password" value="<?php echo $Password; ?>">
 					</div>
 					<div class="input_form">
 						<label>Re-entry password</label>
-						<input type="password" name="Password_2">
+						<input type="password" name="retypePassword">
 					</div>
 					<div class="input_form">
 						<label>Email </label>
-						<input type="email" name="Email" value="<?php echo $Email; ?>">
+						<input type="email" name="email" value="<?php echo $Email; ?>">
 					</div> 
 					<div class="input_form">
 						<label>First Name</label>
-						<input  type="text" name="FirstName" value="<?php echo $FirstName; ?>">
+						<input  type="text" name="firstName" value="<?php echo $FirstName; ?>">
 					</div>
 
 					<div class="input_form">
 						<label>Last Name</label>
-						<input type="text" name="LastName" value="<?php echo $LastName; ?>">
+						<input type="text" name="lastName" value="<?php echo $LastName; ?>">
 					</div>
 					<div class="input_form">
 						<label>Address 1</label>
-						<input type="text" name="AddressLine1" value="<?php echo $AddressLine1; ?>">
+						<input type="text" name="addressLine1" value="<?php echo $AddressLine1; ?>">
 					</div>
 					<div class="input_form">
 						<label>Address 2</label>
-						<input type="text" name="AddressLine2" value="<?php echo $AddressLine2; ?>">
-					</div>
-					<div class="input_form">
-						<label>City</label>
-					<input type="text" name="City" value="<?php echo $City; ?>">
+						<input type="text" name="addressLine2" value="<?php echo $AddressLine2; ?>">
 					</div>
 					<div class="input_form">
 						<label>Country</label>
-						<input type="text" name="Country" value="<?php echo $Country; ?>">
+						<input type="text" name="country" value="<?php echo $Country; ?>">
+					</div>
+					<div class="input_form">
+						<label>City</label>
+					<input type="text" name="city" value="<?php echo $City; ?>">
 					</div>
 					<div class="input_form">
 						<label>Thelephone No.</label>
-					<input type="text" name="Telephone" value="<?php echo $Telephone; ?>">
+					<input type="text" name="telephoneNo" value="<?php echo $Telephone; ?>">
 					</div>
 					<div class="input_form">
 						<label>Mobile No.</label>
-					<input type="text" name="Mobile" value="<?php echo $Mobile; ?>">
+					<input type="text" name="mobileNo" value="<?php echo $Mobile; ?>">
 					</div>
 					<div class="input_form">
 						<button type="submit" class="btn" name="registration_user">Register</button>
@@ -91,7 +91,7 @@
 			<p>
 				Copyright @ All rights are reserved. Created 2017 by Joseph Dobos 
 			</p>
-			<img src="../Images/footerbg.png" width="100%"  />
+			<img src="Images/footerbg.png" width="100%"  />
 		</div>
 
 	</div>
